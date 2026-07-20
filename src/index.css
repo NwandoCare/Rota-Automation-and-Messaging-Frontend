@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* Nwando Care brand orange (#ef770f) */
+  --color-brand-50: #fef6ee;
+  --color-brand-100: #fdead6;
+  --color-brand-500: #f38b31;
+  --color-brand-600: #ef770f;
+  --color-brand-700: #c65f09;
+  --color-brand-900: #7c3a05;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
