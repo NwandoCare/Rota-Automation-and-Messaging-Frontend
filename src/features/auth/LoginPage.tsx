@@ -44,7 +44,7 @@ export function LoginPage() {
         <CardContent className="flex flex-col items-center gap-6 p-10 text-center">
           <img src={nwandoIcon} alt="Nwando Care" className="h-20 w-auto" />
           <div className="space-y-1">
-            <h1 className="text-2xl font-semibold tracking-tight">Welcome to Auto-Scheduler</h1>
+            <h1 className="text-2xl font-semibold tracking-tight">Welcome to the Admin Application</h1>
             <p className="text-sm text-slate-500">
               Nwando Care rota planning and messaging for coordinators
             </p>
